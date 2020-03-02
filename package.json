@@ -1,0 +1,41 @@
+{
+  "name": "jest-match-object-close-to",
+  "version": "1.0.0",
+  "description": "Assert objects with approximate values",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "lint": "eslint src -- --fix",
+    "test": "jest && eslint src",
+    "test-coverage": "jest --coverage",
+    "prepublish": "rollup src/index.js --format cjs --file lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearsie/jest-match-object-close-to.git"
+  },
+  "keywords": ["jest", "jest-matcher", "match-close-to", "match-objects"],
+  "author": "Wojciech Niedzwiedz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bearsie/jest-match-object-close-to/issues"
+  },
+  "homepage": "https://github.com/bearsie/jest-match-object-close-to#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.6",
+    "codecov": "^3.6.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.1",
+    "jest": "^25.1.0",
+    "rollup": "^1.32.0"
+  }
+}
