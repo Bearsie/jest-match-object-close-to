@@ -1,6 +1,6 @@
 {
   "name": "jest-match-object-close-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assert objects with approximate values",
   "main": "lib/index.js",
   "module": "src/index.js",
