@@ -1,8 +1,5 @@
 # jest-match-object-close-to
 
-  [![NPM version][npm-image]][npm-url]
-  [![npm download][download-image]][download-url]
-
 Extend jest to match object with approximate values.
 
 ## Installation
@@ -27,6 +24,3 @@ describe('test object match', () => {
 ## License
 
   [MIT](./LICENSE)
-
-[npm-url]: https://npmjs.org/package/jest-match-object-close-to
-[download-url]: https://npmjs.org/package/jest-match-object-close-to
