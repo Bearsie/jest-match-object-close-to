@@ -1,6 +1,6 @@
 {
   "name": "jest-match-object-close-to",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jest expect method to compare objects having numeric values to a specified number of decimal places",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -20,7 +20,12 @@
     "type": "git",
     "url": "git+https://github.com/bearsie/jest-match-object-close-to.git"
   },
-  "keywords": ["jest", "jest-matcher", "match-close-to", "match-objects"],
+  "keywords": [
+    "jest",
+    "jest-matcher",
+    "match-close-to",
+    "match-objects"
+  ],
   "author": "Wojciech Niedzwiedz",
   "license": "MIT",
   "bugs": {
