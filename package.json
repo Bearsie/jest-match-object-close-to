@@ -1,7 +1,7 @@
 {
   "name": "jest-match-object-close-to",
   "version": "1.0.1",
-  "description": "Assert objects with approximate values",
+  "description": "Jest expect method to compare objects having numeric values to a specified number of decimal places",
   "main": "lib/index.js",
   "module": "src/index.js",
   "types": "index.d.ts",
