@@ -2,7 +2,7 @@ declare global {
   namespace jest {
     interface Matchers<R> {
       toMatchObjectCloseTo: (
-        expected: object,
+        expected: { [key: string]: number } | number[],
         decimals?: number,
       ) => R;
     }
@@ -10,8 +10,8 @@ declare global {
 }
 
 export function toMatchObjectCloseTo(
-  received: object,
-  expected: object,
+  received: { [key: string]: number } | number[],
+  expected: { [key: string]: number } | number[],
   decimals?: number,
 ): {
   message(): string;
